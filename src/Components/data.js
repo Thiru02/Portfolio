@@ -31,7 +31,7 @@ export const projects = [
   ];
 
   export const skills =[
-    'React', 'HTML/CSS'
+    'Javacript','React','Redux', 'HTML/CSS','Sass/TailwindCSS', 'SQL','TypeScript','Python'
   ]
 
   export const testimonials = [

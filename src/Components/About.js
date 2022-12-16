@@ -1,5 +1,6 @@
 import React from "react";
 import about_img from '../Images/HD-wallpaper-programmer-code-coding-dark-program.jpg'
+import ReactTypingEffect from 'react-typing-effect';
 
 export default function About() {
   return (
@@ -7,14 +8,22 @@ export default function About() {
       <div className=" container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black-500">
-            Hello World! <br/> I'm Thiru.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
+            Hello World!
+            <br/> 
+            I'm Thiru. <br className="hidden lg:inline-block" />
+            I love to <span>
+            <ReactTypingEffect
+          text={["build apps.","learn new things."]}
+        />
+            </span>
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+          A highly motivated, innovative, dedicated individual willing to work
+        hard . As someone who is comfortable with and able to effectively cope
+        with change. Lifelong learner, who is capable to identify, assess and
+        address skill gaps to achieve high career growth. I am keen to secure a
+        challenging role in a firm that offers early responsibilities and a
+        progressive career path.
           </p>
           <div className="flex justify-center">
             <a
