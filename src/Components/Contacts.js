@@ -1,4 +1,5 @@
 import React from "react";
+import {social} from "./data"
 
 export default function Contact() {
   return (
@@ -90,6 +91,16 @@ export default function Contact() {
           </button>
         </form>
       </div>
+      <div className="bg-gray-800 p-11">
+        <div className="flex justify-center">
+          {social.map((soc)=>{
+            return (
+              <a href={soc.link} target="blank" key={soc.name} className="p-5 pb-3"><soc.icon className="w-10 h-10"/></a>
+            )
+          })}
+        </div>
+        <div className="flex justify-center">Thiruparan Balakrishnan © 2022</div>
+        </div>
     </section>
   );
 }

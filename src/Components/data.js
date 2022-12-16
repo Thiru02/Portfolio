@@ -2,6 +2,17 @@ import box_office from '../Images/BoxOffice.png'
 import tic_tac_tac from '../Images/TicaTacToe.png'
 import eats_app from '../Images/EatsApp.png'
 import to_do_list from '../Images/ToDoList.png'
+import {DiJavascript1} from 'react-icons/di'
+import {DiReact} from 'react-icons/di'
+import {SiRedux} from 'react-icons/si'
+import {DiHtml5} from 'react-icons/di'
+import {DiSass} from 'react-icons/di'
+import {DiStreamline} from 'react-icons/di'
+import {SiTypescript} from 'react-icons/si'
+import {DiPython} from 'react-icons/di'
+import {AiFillGithub} from 'react-icons/ai'
+import {AiOutlineTwitter} from 'react-icons/ai'
+import {AiFillLinkedin} from 'react-icons/ai'
 
 export const projects = [
     {
@@ -31,9 +42,31 @@ export const projects = [
   ];
 
   export const skills =[
-    'Javacript','React','Redux', 'HTML/CSS','Sass/TailwindCSS', 'SQL','TypeScript','Python'
+    {name:'Javacript',icon:DiJavascript1},
+    {name:'React',icon:DiReact},
+    {name:'Redux', icon:SiRedux},
+    {name:'HTML/CSS',icon:DiHtml5},
+    {name:'Sass/TailwindCSS',icon: DiSass},
+    {name:'SQL',icon:DiStreamline},
+    {name:'TypeScript',icon:SiTypescript},
+    {name:'Python',icon:DiPython}
   ]
 
   export const testimonials = [
     'dfd','dfd'
+  ]
+
+  export const social = [
+    {name:'Github',
+      link:'https://github.com/Thiru02',
+      icon:AiFillGithub
+    },
+    {name:'Linkedin',
+    link:'d',
+    icon:AiFillLinkedin
+  },
+  {name:'Twitter',
+  link:'https://twitter.com/thiruparan2',
+  icon:AiOutlineTwitter
+}
   ]
