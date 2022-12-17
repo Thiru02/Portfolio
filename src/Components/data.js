@@ -13,29 +13,31 @@ import {DiPython} from 'react-icons/di'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
+import {SiTailwindcss} from 'react-icons/si'
+import {DiNodejsSmall} from 'react-icons/di'
 
 export const projects = [
     {
       title: 'Box Office',
-      description: 'React',
+      description: 'React, React hooks, NodeJs, Styled-components',
       image: box_office,
       link: 'https://thiru02.github.io/Box-office-latest/#/',
     },
     {
       title: 'Tic Tac Toe',
-      description: 'React',
+      description: 'React, React hooks, SASS',
       image: tic_tac_tac,
       link: 'https://amazinggametictactoe.surge.sh/',
     },
     {
       title: 'Eats App',
-      description: 'React',
+      description: 'React, React hooks, TailwindCSS',
       image: eats_app,
       link: 'https://thiru02.github.io/Eats-app/',
     },
     {
       title: 'To Do List',
-      description: 'React',
+      description: 'React, React hooks, CSS',
       image: to_do_list,
       link: 'https://thiru02.github.io/To-Do-List/',
     },
@@ -46,7 +48,9 @@ export const projects = [
     {name:'React',icon:DiReact},
     {name:'Redux', icon:SiRedux},
     {name:'HTML/CSS',icon:DiHtml5},
-    {name:'Sass/TailwindCSS',icon: DiSass},
+    {name:'Sass',icon: DiSass},
+    {name:'TailwindCSS',icon: SiTailwindcss},
+    {name:'NodeJS',icon: DiNodejsSmall},
     {name:'SQL',icon:DiStreamline},
     {name:'TypeScript',icon:SiTypescript},
     {name:'Python',icon:DiPython}

@@ -23,7 +23,7 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                40 2/1 Vivekananda Road, <br />
+                40 2/1, Vivekananda Road, <br />
                 Colombo-06, 00600
               </p>
             </div>
