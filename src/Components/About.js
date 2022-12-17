@@ -21,10 +21,7 @@ export default function About() {
           <p className="mb-8 leading-relaxed">
           A highly motivated, innovative, dedicated individual willing to work
         hard . As someone who is comfortable with and able to effectively cope
-        with change. Lifelong learner, who is capable to identify, assess and
-        address skill gaps to achieve high career growth. I am keen to secure a
-        challenging role in a firm that offers early responsibilities and a
-        progressive career path.
+        with change. I enjoy creating things that live on the internet, which gives immediate satisfaction. I like developing interactive things with Code. Currently I am focused with React and Javascript.
           </p>
           <div className="flex justify-center">
             <a
