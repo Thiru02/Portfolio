@@ -12,10 +12,12 @@ export default function About() {
             Hello World!
             <br/> 
             I'm Thiru. <br className="" />
+            <span className="text-[25px] ">
             I love to <span>
             <ReactTypingEffect
           text={["build apps.","learn new things."]}
         />
+        </span>
         <br/>
             </span>
           </h1>
