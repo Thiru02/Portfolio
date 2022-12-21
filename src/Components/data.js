@@ -44,7 +44,7 @@ export const projects = [
   ];
 
   export const skills =[
-    {name:'Javacript',icon:DiJavascript1},
+    {name:'JavaScript',icon:DiJavascript1},
     {name:'React',icon:DiReact},
     {name:'Redux', icon:SiRedux},
     {name:'HTML/CSS',icon:DiHtml5},
