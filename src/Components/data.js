@@ -66,7 +66,7 @@ export const projects = [
       icon:AiFillGithub
     },
     {name:'Linkedin',
-    link:'d',
+    link:'https://www.linkedin.com/in/thiruparan-balakrishnan',
     icon:AiFillLinkedin
   },
   {name:'Twitter',
