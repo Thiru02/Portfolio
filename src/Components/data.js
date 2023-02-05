@@ -62,7 +62,7 @@ export const projects = [
 
   export const social = [
     {name:'Github',
-      link:'https://github.com/Thiru02',
+      link:'https://github.com/thiruparanDev',
       icon:AiFillGithub
     },
     {name:'Linkedin',
@@ -70,7 +70,7 @@ export const projects = [
     icon:AiFillLinkedin
   },
   {name:'Twitter',
-  link:'https://twitter.com/thiruparan2',
+  link:'https://twitter.com/thiruparanDev',
   icon:AiOutlineTwitter
 }
   ]
