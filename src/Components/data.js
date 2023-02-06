@@ -21,7 +21,7 @@ export const projects = [
       title: 'Box Office',
       description: 'React, React hooks, NodeJs, Styled-components',
       image: box_office,
-      link: 'https://thiru02.github.io/Box-office-latest/#/',
+      link: 'https://thiruparandev.github.io/Box-office-latest/#/',
     },
     {
       title: 'Tic Tac Toe',
@@ -39,7 +39,7 @@ export const projects = [
       title: 'To Do List',
       description: 'React, React hooks, CSS',
       image: to_do_list,
-      link: 'https://thiru02.github.io/To-Do-List/',
+      link: 'https://thiruparandev.github.io/To-Do-List/',
     },
   ];
 
