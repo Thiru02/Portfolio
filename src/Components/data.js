@@ -33,7 +33,7 @@ export const projects = [
       title: 'Eats App',
       description: 'React, React hooks, TailwindCSS',
       image: eats_app,
-      link: 'https://thiru02.github.io/Eats-app/',
+      link: 'https://thiruparandev.github.io/Eats-app/',
     },
     {
       title: 'To Do List',
